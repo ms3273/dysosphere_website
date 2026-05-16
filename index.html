@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SphereX by DysoSphere — Local AI Appliance & Intelligent NAS</title>
+    <meta name="description" content="SphereX is the world's first local AI appliance and enterprise NAS in one device. Zero cloud, zero subscriptions, total privacy.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar"><div class="nav-container">
+        <a href="index.html" class="nav-logo"><img src="images/DS.svg" alt="DS" style="height:28px;width:auto"><span class="logo-separator"></span><span class="logo-product">SphereX</span></a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html" class="nav-cta">Get in Touch</a></li>
+        </ul>
+        <button class="nav-toggle" id="navToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div></nav>
+
+    <!-- HERO -->
+    <section class="hero" id="hero">
+        <div class="hero-bg"><div class="hero-gradient"></div></div>
+        <div class="hero-particles" id="particles"></div>
+        <div class="hero-content">
+            <div class="hero-badge animate-in"><span class="badge-dot"></span>No Cloud &bull; No Subscription &bull; 100% Yours</div>
+            <h1 class="hero-title animate-in d1">A Private AI &amp; Storage<br>That <span class="gradient-text">Lives in Your Home</span></h1>
+            <p class="hero-subtitle animate-in d2">One compact device on your shelf. It's your personal AI assistant, your file server, your photo vault, and your private cloud — all in one. Your data never leaves your home.</p>
+            <div class="hero-actions animate-in d3">
+                <a href="contact.html" class="btn btn-primary btn-lg">Get SphereX</a>
+                <a href="#workflows" class="btn btn-ghost btn-lg">See What It Can Do ↓</a>
+            </div>
+            <div class="animate-in d4" style="max-width:520px;margin:0 auto">
+                <div class="chat-window">
+                    <div class="chat-header"><div class="chat-avatar">⬡</div><div><strong>SphereX</strong><span class="chat-status">● Local</span></div></div>
+                    <div class="chat-messages">
+                        <div class="msg msg-user">Find the vacation photos from Goa where everyone is on the beach</div>
+                        <div class="msg msg-ai">
+                            <div class="msg-typing" id="typing1"><span></span><span></span><span></span></div>
+                            <div class="msg-content" id="reply1" style="display:none">Found 47 photos matching "beach in Goa" across your library! 📸<br><br>📂 <strong>/Photos/2025/Goa Trip/</strong><br>👥 People detected: You, Priya, Rahul, Mom<br>🏖️ 23 beach photos, 12 sunset shots, 12 group photos<br><br>Want me to create a shared album with just the group photos? I can also find the videos from the same trip.</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- USE CASES -->
+    <section class="use-cases">
+        <div class="container">
+            <div class="use-case-strip">
+                <div class="use-case-pill">📅 Smart Scheduling</div>
+                <div class="use-case-pill">🔍 Web Research</div>
+                <div class="use-case-pill">📸 Photo Search</div>
+                <div class="use-case-pill">💰 Expense Tracking</div>
+                <div class="use-case-pill">📧 Email Intelligence</div>
+                <div class="use-case-pill">📁 File Search</div>
+                <div class="use-case-pill">💬 WhatsApp</div>
+                <div class="use-case-pill">👥 Face Recognition</div>
+                <div class="use-case-pill">🎯 Goal Tracking</div>
+                <div class="use-case-pill">📊 Price Tracking</div>
+                <div class="use-case-pill">🔄 Auto Backup</div>
+                <div class="use-case-pill">☀️ Daily Briefings</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHAT IT DOES — AI WORKFLOWS -->
+    <section class="workflows" id="workflows">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Real Examples</span>
+                <h2 class="section-title">Here's What People Do With <span class="gradient-text">SphereX</span></h2>
+                <p class="section-subtitle">Not just a chatbot, not just a hard drive — a personal intelligence that searches, stores, organizes, and acts.</p>
+            </div>
+
+            <!-- WF1: Web Research -->
+            <div class="workflow-card reveal">
+                <div class="workflow-content">
+                    <div class="workflow-number">01</div>
+                    <h3>🔍 Research Anything From the Web</h3>
+                    <p class="workflow-desc">Ask SphereX to research anything — it searches the web, reads full articles and reviews, compares options, and gives you a clean summary. Like having a research analyst on call 24/7.</p>
+                    <div class="workflow-quote">"I asked it to compare health insurance plans. It read 6 policy documents and gave me a comparison table in 2 minutes."</div>
+                </div>
+                <div class="mini-chat">
+                    <div class="msg msg-user">What are the best credit cards for travel rewards in India? Compare the top 3.</div>
+                    <div class="msg msg-ai">I searched and analyzed 15 sources. Here are the top 3:<br><br>🥇 <strong>HDFC Infinia:</strong> 5x points on travel, ₹10K fee, lounge access<br>🥈 <strong>Axis Atlas:</strong> 5 pts/₹100 on all spend, ₹5K fee<br>🥉 <strong>Amex Plat Travel:</strong> 5x on flights, ₹5K fee, no FX markup<br><br>💡 Best value for you: <strong>Axis Atlas</strong> — you spend mostly on food & shopping, and it rewards all categories equally.</div>
+                </div>
+            </div>
+
+            <!-- WF2: NAS Smart Search -->
+            <div class="workflow-card reverse reveal">
+                <div class="workflow-content">
+                    <div class="workflow-number">02</div>
+                    <h3>📸 Find Any Photo by Describing It</h3>
+                    <p class="workflow-desc">Unlike Google Photos or iCloud, SphereX understands what's <em>in</em> your photos. Search by describing scenes, people, objects, or emotions — across terabytes of files stored locally.</p>
+                    <div class="workflow-quote">"I said 'find photos where the kids are playing in rain' — it found 23 photos across 3 years. No cloud service does this locally."</div>
+                </div>
+                <div class="mini-chat">
+                    <div class="msg msg-user">Find photos from last Diwali where we're lighting diyas on the balcony</div>
+                    <div class="msg msg-ai">Found 18 matches! 🪔<br><br>📂 <strong>/Photos/2025/Diwali/</strong><br>🕯️ 18 photos with diyas/candles on balcony<br>👥 <strong>People:</strong> You, Mom, Dad, Priya<br>📅 October 20-21, 2025<br><br>I also found 8 videos from the same evening — including the one where Dad's sparkler almost hit the plant 😄<br><br>Want me to create a "Diwali Memories" album?</div>
+                </div>
+            </div>
+
+            <!-- WF3: AI + NAS Together -->
+            <div class="workflow-card reveal">
+                <div class="workflow-content">
+                    <div class="workflow-number">03</div>
+                    <h3>📁 Find Any File by Just Describing It</h3>
+                    <p class="workflow-desc">SphereX reads and indexes every document on your storage. Ask for any file in plain English — it searches content, not just filenames. No other NAS does this.</p>
+                    <div class="workflow-quote">"It found a recipe PDF my mom sent me 2 years ago in 3 seconds — by searching what was inside the document."</div>
+                </div>
+                <div class="mini-chat">
+                    <div class="msg msg-user">Find that invoice from the electrician from March — I think the amount was around 3500</div>
+                    <div class="msg msg-ai">Found it! 📄<br><br><strong>Electrician-Invoice-March2026.pdf</strong><br>📂 /Documents/Home/Maintenance/<br>💰 Amount: ₹3,500 for wiring repair<br>📅 Date: March 15, 2026<br><br>I also found a related receipt from the hardware store (₹780 for switches) from the same week. Want me to send both to your phone?</div>
+                </div>
+            </div>
+
+            <!-- WF4: Face Recognition -->
+            <div class="workflow-card reverse reveal">
+                <div class="workflow-content">
+                    <div class="workflow-number">04</div>
+                    <h3>👥 Know Your People — Automatic Face Recognition</h3>
+                    <p class="workflow-desc">SphereX automatically recognizes faces across your entire photo library. Name someone once, and it finds every photo they've ever been in. All processing happens locally — no face data ever leaves your device.</p>
+                    <div class="workflow-quote">"My grandmother visited once. I tagged her name. Now SphereX has found her in photos going back 5 years across 3 different phones."</div>
+                </div>
+                <div class="mini-chat">
+                    <div class="msg msg-user">Show me all photos of Priya from the last 6 months</div>
+                    <div class="msg msg-ai">Found <strong>284 photos</strong> of Priya from Nov 2025 – May 2026! 👤<br><br>📊 <strong>Breakdown:</strong><br>🏠 142 at home<br>🌳 56 outdoors/travel<br>🎉 48 events & celebrations<br>👶 38 with the baby<br><br>📅 Most photos: December (Priya's birthday week — 67 photos!)<br><br>Want me to create a "Priya's Year" slideshow? I can pick the best shots from each month.</div>
+                </div>
+            </div>
+
+            <!-- WF5: Morning Briefing -->
+            <div class="workflow-card reveal">
+                <div class="workflow-content">
+                    <div class="workflow-number">05</div>
+                    <h3>☀️ Your Morning Briefing</h3>
+                    <p class="workflow-desc">Every morning, SphereX sends you a personalized briefing — weather, schedule, pending tasks, important emails, and even your expense summary. No more opening 5 apps before your first coffee.</p>
+                    <div class="workflow-quote">"I just say 'good morning' and SphereX tells me everything I need to know for the day."</div>
+                </div>
+                <div class="mini-chat">
+                    <div class="msg msg-user">Good morning!</div>
+                    <div class="msg msg-ai">Good morning! ☀️ Here's your day:<br><br>🌡️ <strong>32°C</strong>, partly cloudy in Hyderabad<br>📅 10 AM — Team standup • 2 PM — Dentist<br>📧 <strong>3 important emails</strong> — HDFC payment due tomorrow<br>📸 <strong>New:</strong> 47 photos auto-backed up from your phone overnight<br>💰 Yesterday's spend: ₹1,240 (under your ₹1,500 budget ✅)</div>
+                </div>
+            </div>
+
+            <!-- WF6: Auto Backup -->
+            <div class="workflow-card reverse reveal">
+                <div class="workflow-content">
+                    <div class="workflow-number">06</div>
+                    <h3>🔄 Automatic Backup — Every Device, Every File</h3>
+                    <p class="workflow-desc">Every photo you take, every document you create — automatically backed up to SphereX over your home WiFi. No cloud uploads. No storage limits. No monthly fees. Works with iPhone, Android, Mac, and Windows.</p>
+                    <div class="workflow-quote">"I stopped paying for iCloud and Google One. My photos back up to SphereX automatically — I have 4TB of family memories, all at home."</div>
+                </div>
+                <div class="mini-chat">
+                    <div class="msg msg-user">How much storage am I using? And when was the last backup?</div>
+                    <div class="msg msg-ai">📊 <strong>Storage Overview:</strong><br><br>📸 Photos & Videos: 1.8 TB (42,000 files)<br>📄 Documents: 120 GB<br>🎵 Music: 45 GB<br>💾 Total used: 1.96 TB of 8 TB<br><br>🔄 <strong>Last backup:</strong> Today 6:30 AM<br>📱 Sriram's iPhone: 23 new photos synced<br>💻 MacBook: 4 documents synced<br>📱 Priya's phone: 12 photos synced<br><br>Everything is up to date! ✅</div>
+                </div>
+            </div>
+
+            <!-- WF7: Email + Expenses -->
+            <div class="workflow-card reveal">
+                <div class="workflow-content">
+                    <div class="workflow-number">07</div>
+                    <h3>📧 Email Intelligence &amp; Expense Tracking</h3>
+                    <p class="workflow-desc">SphereX reads your inbox, extracts bills and payment reminders, tracks expenses from your bank emails, and gives you spending insights — all without your email data ever leaving your home network.</p>
+                    <div class="workflow-quote">"50 emails in my inbox used to stress me. Now I get a 5-line summary of what matters."</div>
+                </div>
+                <div class="mini-chat">
+                    <div class="msg msg-user">How much did I spend on food this month? And check my email for any pending bills.</div>
+                    <div class="msg msg-ai">📊 <strong>Food — May 2026:</strong><br>🍕 Eating out: ₹4,320 (18 orders)<br>🛒 Groceries: ₹6,850 (5 trips)<br>☕ Coffee/snacks: ₹1,180<br><strong>Total: ₹12,350</strong> — 8% more than April<br><br>📬 <strong>Pending bills found:</strong><br>🔴 HDFC Credit Card: ₹15,400 due May 12<br>🟡 Jio Broadband: ₹999 auto-debit May 15<br>🟢 Amazon refund: ₹2,499 arriving May 11<br><br>Want me to set a reminder for the HDFC payment?</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- WHY SPHEREX -->
+    <section class="why-section" id="why">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Why SphereX</span>
+                <h2 class="section-title">Unlike Alexa, Siri, or Google Photos...</h2>
+                <p class="section-subtitle">SphereX is a physical device in your home — not an app running on someone else's server.</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-card highlight-card reveal"><div class="why-icon">🏠</div><h3>It Lives in Your Home</h3><p>A compact device on your shelf, connected to your WiFi. Your data is physically in your house — not in a data center in another country.</p></div>
+                <div class="why-card reveal"><div class="why-icon">🔒</div><h3>No Cloud. Period.</h3><p>The AI runs on the device itself. Your conversations, files, photos, and personal data never go to any server. Not even ours.</p></div>
+                <div class="why-card reveal"><div class="why-icon">🧠</div><h3>It Learns &amp; Remembers</h3><p>Unlike cloud assistants that forget everything, SphereX remembers your preferences, habits, and past conversations to serve you better over time.</p></div>
+                <div class="why-card reveal"><div class="why-icon">📸</div><h3>Smart Photo Search</h3><p>Search your photos by describing what's in them. Find people by face, scenes by description, and moments by memory. No other NAS does this.</p></div>
+                <div class="why-card reveal"><div class="why-icon">💾</div><h3>Unlimited Storage</h3><p>No monthly storage fees. No "you've run out of space" warnings. Store terabytes of photos, videos, and documents — all on hardware you own.</p></div>
+                <div class="why-card reveal"><div class="why-icon">🆓</div><h3>No Monthly Fees</h3><p>Buy it once, use it forever. No subscriptions, no premium tiers, no "your free trial has ended" messages. Ever.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A DAY WITH SPHEREX AI -->
+    <section class="daily-life">
+        <div class="container">
+            <div class="daily-card">
+                <h2>A Day with <span class="gradient-text">SphereX AI</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item reveal"><div class="timeline-time">7:00 AM</div><div class="timeline-content"><strong>Morning Briefing</strong> — Weather, schedule, pending tasks, and important emails delivered via WhatsApp.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">9:30 AM</div><div class="timeline-content"><strong>Quick Reminder</strong> — "Remind me to call the plumber tomorrow at 11am" → Done in 2 seconds.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">11:00 AM</div><div class="timeline-content"><strong>Web Research</strong> — "Compare the top 5 air purifiers under ₹15K" → Full comparison with pros/cons in your notes.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">12:30 PM</div><div class="timeline-content"><strong>Expense Logged</strong> — "Lunch ₹180 at office canteen" → Tracked, categorized, compared to weekly average.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">3:00 PM</div><div class="timeline-content"><strong>Price Alert</strong> — "The MacBook Air you're tracking just dropped ₹8,000 on Amazon!"</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">6:00 PM</div><div class="timeline-content"><strong>Email Digest</strong> — "You have 2 important emails: credit card bill due in 3 days, and a refund processed."</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">9:00 PM</div><div class="timeline-content"><strong>Daily Summary</strong> — "You spent ₹1,420 today. You're ₹80 under budget. 3 tasks completed, 1 pending."</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A DAY WITH SPHEREX NAS -->
+    <section class="daily-life">
+        <div class="container">
+            <div class="daily-card">
+                <h2>A Day with <span class="gradient-text">SphereX NAS</span></h2>
+                <div class="timeline">
+                    <div class="timeline-item reveal"><div class="timeline-time">🌅 Morning</div><div class="timeline-content"><strong>Auto Backup</strong> — 23 photos from yesterday synced automatically from your phone overnight. Zero effort.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">10:00 AM</div><div class="timeline-content"><strong>Smart File Search</strong> — "Find the rental agreement PDF" → Found by searching inside the document content, not just the filename.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">11:30 AM</div><div class="timeline-content"><strong>Face Recognition</strong> — 14 new photos of your daughter auto-tagged and added to her "People" album.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">2:00 PM</div><div class="timeline-content"><strong>Photo Search</strong> — "Find photos of the sunset from our Goa trip" → 31 sunset photos found instantly from 2TB of storage.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">4:00 PM</div><div class="timeline-content"><strong>Mac Time Machine</strong> — Your MacBook backed up automatically over WiFi. 3 versions of that presentation preserved.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">7:00 PM</div><div class="timeline-content"><strong>Remote Access</strong> — Accessing your home files securely from your phone while at a friend's house.</div></div>
+                    <div class="timeline-item reveal"><div class="timeline-time">🌙 Night</div><div class="timeline-content"><strong>Dream Cycle</strong> — SphereX quietly organizes new photos, detects faces, generates search indexes, and checks storage health.</div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta" id="cta">
+        <div class="container">
+            <div class="cta-card">
+                <div class="cta-glow"></div>
+                <h2>Ready to Own Your AI &amp; Storage?</h2>
+                <p>One device. No cloud. No subscriptions. Your personal AI assistant and private storage — forever.</p>
+                <div class="cta-actions">
+                    <a href="contact.html" class="btn btn-primary btn-lg">Contact Us to Get SphereX</a>
+                    <a href="product.html" class="btn btn-ghost btn-lg">Explore Product →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer"><div class="container"><div class="footer-inner">
+        <div class="footer-brand"><img src="images/DS.svg" alt="DS" style="height:22px;width:auto"><span>DysoSphere</span></div>
+        <div class="footer-links"><a href="index.html">Home</a><a href="product.html">Product</a><a href="about.html">About</a><a href="contact.html">Contact</a></div>
+        <p class="footer-copy">&copy; 2026 DysoSphere &bull; SphereX — Your AI, Your Data, Your Hardware</p>
+    </div></div></footer>
+    <script src="script.js"></script>
+</body>
+</html>
