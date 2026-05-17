@@ -45,6 +45,18 @@ if (typing1 && reply1) {
   }, 1200);
 }
 
+const typing2 = document.getElementById('typing2');
+const reply2 = document.getElementById('reply2');
+if (typing2 && reply2) {
+  setTimeout(() => {
+    setTimeout(() => {
+      typing2.style.display = 'none';
+      reply2.style.display = 'block';
+      reply2.style.animation = 'fadeInUp 0.4s ease';
+    }, 2800);
+  }, 1200);
+}
+
 // ── Scroll reveal (IntersectionObserver) ─────────────────
 const revealObserver = new IntersectionObserver(entries => {
   entries.forEach(e => {
